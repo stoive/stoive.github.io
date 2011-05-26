@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<h1>sessionStorage and localStorage</h1>
+<p>
+	Always wanted to persist data between page loads, without having to use some
+	hack (like posting it back to the server, or putting it in location.hash)?
+</p>
+<p>
+	sessionStorage is a key-value pair dictionary that can be
+	accessed by pages from the same <em>domain</em> over the period of the
+	<em>browser session</em>. It'll stick around through clicking links, back/forward
+	navigation, and refreshing the page.
+</p>
+<label for="sessionstorage">Keep me for later:</label>
+<input id="sessionstorage" type="text" />
+<pre id="sessionstorage-value"></pre>
+<script>
+	$('#sessionstorage').change(function() {
+		sessionStorage['eg'] = this.value;
+		$('#sessionstorage-value').text(sessionStorage['eg'])
+	});
+	$('#sessionstorage-value').text(sessionStorage['eg']);
+</script>
+<p>
+	localStorage is much the same, however the data remains in storage until it
+	is explicitly removed - close the tab or browser, or reboot the machine, and
+	the data will still be there.
+</p>
+<label for="localstorage">Keep me for much later:</label>
+<input id="localstorage" type="text" />
+<pre id="localstorage-value"></pre>
+<script>
+	$('#localstorage').change(function() {
+		localStorage['eg'] = this.value;
+		$('#localstorage-value').text(localStorage['eg'])
+	});
+	$('#localstorage-value').text(localStorage['eg']);
+</script>
+	</body>
+</html>

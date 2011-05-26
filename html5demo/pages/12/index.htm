@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<h1>video</h1>
+<p>
+	The much-fabled video tag brings video playing to the browser without a
+	plugin.
+</p>
+<p>
+	The playback interface is fully customisable - you can overlay your own HTML
+	interface and script the controls - or you can accept the (ugly) browser
+	default. And yes, it can fall back to Flash.
+</p>
+<!-- thanks to http://camendesign.com/code/video_for_everybody/test.html -->
+<video width="320" height="180" controls="" autoplay="">
+	<!-- MP4 must be first for iPad! -->
+	<source src="/video/VfE_html5.mp4" type="video/mp4"><!-- Safari / iOS, IE9 -->
+	<source src="/video/VfE.webm" type="video/webm"><!-- Chrome10+, Ffx4+, Opera10.6+ -->
+	<source src="/video/VfE.ogv" type="video/ogg"><!-- Firefox3.6+ / Opera 10.5+ -->
+	<!-- fallback to Flash: -->
+	<object width="320" height="180" type="application/x-shockwave-flash" data="/video/player.swf">
+		<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+		<param name="movie" value="/video/player.swf">
+		<param name="flashvars" value="autostart=true&amp;controlbar=over&amp;image=/video/poster.jpg&amp;/video/VfE_flash.mp4">
+		<!-- fallback image -->
+		<img src="/video/poster.jpg" width="640" height="360" alt="Big Buck Bunny" title="No video playback capabilities, please download the video below">
+	</object>
+</video>
+<script>
+	$('object').remove();
+</script>
+<p>	<strong>Download Video:</strong>
+	Closed Format: <a href="/video/VfE_html5.mp4">"MP4"</a>
+	Open Format: <a href="/video/VfE.webm">"OGG"</a> /
+	            <a href="/video/VfE.webm">"WebM"</a>
+</p>
+	</body>
+</html>

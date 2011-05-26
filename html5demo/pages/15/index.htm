@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<script>
+	var bubble = new google.bookmarkbubble.Bubble();
+	//bubble.isAllowedToShow_ = function() {return true;};
+	bubble.showIfAllowed();
+</script>
+<h1>Microphone and Webcam</h1>
+<p>
+	Google Chrome's current (summarised) <a href="http://codesearch.google.com/codesearch/p?vert=chromium#OAMlx_jo-ck/src/third_party/WebKit/Source/WebCore/page/Navigator.cpp&l=247">implementation</a> of the 
+	<a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html#video-conferencing-and-peer-to-peer-communication">Web Media API</a>:
+</p>
+<blockquote><pre>#if ENABLE(MEDIA_STREAM)
+void Navigator::webkitGetUserMedia(
+	const String& options,
+	PassRefPtr<NavigatorUserMediaSuccessCallback> successCallback,
+	PassRefPtr<NavigatorUserMediaErrorCallback> errorCallback)
+{
+	// FIXME
+}
+#endif</pre></blockquote>
+<p>
+	Some things just aren't there yet.
+</p>
+<p>:'(</p>
+	</body>
+</html>

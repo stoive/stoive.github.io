@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<h1>SVG</h1>
+<p>
+	SVG means vector graphics - drawn as lines, not pixels, so they scale
+	without degradation, and look really nice in print. IE versions prior to 9
+	used another vector language called VML, but fortunately there's libraries
+	that can handle both.
+</p>
+<div id="holder" style="width: 300px; height: 300px;"></div>
+<script>
+	// thanks to http://g.raphaeljs.com/piechart2.html
+	var r = Raphael("holder");
+	r.g.txtattr.font = "12px 'Fontin Sans', Fontin-Sans, sans-serif";
+
+	r.g.text(150, 20, "Pie.").attr({"font-size": 20});
+
+	var data = [100, 50, 35, 72, 6, 9, 103, 34];
+
+	// centre x, centre y, radius 100
+	var pie = r.g.piechart(150, 150, 100, data);
+	
+	pie.hover(function () {
+		this.sector.stop();
+		this.sector.scale(1.1, 1.1, this.cx, this.cy);
+		if (this.label) {
+		    this.label[0].stop();
+		    this.label[0].scale(1.5);
+		    this.label[1].attr({"font-weight": 800});
+		}
+	}, function () {
+		this.sector.animate({scale: [1, 1, this.cx, this.cy]}, 500, "bounce");
+		if (this.label) {
+		    this.label[0].animate({scale: 1}, 500, "bounce");
+		    this.label[1].attr({"font-weight": 400});
+		}
+	});
+</script>
+	</body>
+</html>

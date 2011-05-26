@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<h1>Animations and Transitions</h1>
+<p>
+	CSS transitions allow the CSS properties of something on your page to change
+	over time. For example:
+</p>
+<style>
+	#transitionDemo {
+		float: left;
+		margin: 10px;
+		padding: 5px;
+		width: 80px;
+		height: 80px; 
+		border: 5px solid blue;
+		background-color: white;
+		-webkit-transition: background-color 1s ease-in, -webkit-box-shadow 0.5s linear;
+		-moz-transition: background-color 1s ease-in, -moz-box-shadow 0.5s linear;
+		-ie-transition: background-color 1s ease-in, -ie-box-shadow 0.5s linear;
+		transition: background-color 1s ease-in, box-shadow 0.5s linear;
+	}
+
+	#transitionDemo:hover {
+		background-color: lightBlue;
+		-webkit-box-shadow: 0 0 5px 5px #F60;
+		-moz-box-shadow: 0 0 5px 5px #F60;
+		-ie-box-shadow: 0 0 5px 5px #F60;
+		box-shadow: 0 0 5px 5px #F60;
+	}
+	
+	#spinner {
+		float: right;
+		color: white;
+		padding: 5px;
+		margin: 10px;
+		height: 80px;
+		width: 80px;
+		background-color: #000;
+		-webkit-animation: spinnerRotate 1.81s linear infinite;
+		-moz-animation: spinnerRotate 1.81s linear infinite;
+		-ie-animation: spinnerRotate 1.81s linear infinite;
+		animation: spinnerRotate 1.81s linear infinite;
+	}
+
+	@-webkit-keyframes spinnerRotate {
+		from {
+		    -webkit-transform:rotate(0deg);
+		}
+		to {
+		    -webkit-transform:rotate(360deg);
+		}
+	}
+
+	@-moz-keyframes spinnerRotate {
+		from {
+		    -moz-transform:rotate(0deg);
+		}
+		to {
+		    -moz-transform:rotate(360deg);;
+		}
+	}
+
+	@-ie-keyframes spinnerRotate {
+		from {
+		    -ie-transform:rotate(0deg);
+		}
+		to {
+		    -ie-transform:rotate(360deg);
+		}
+	}
+
+	@keyframes spinnerRotate {
+		from {
+		    transform:rotate(0deg);
+		}
+		to {
+		    transform:rotate(360deg);
+		}
+	}
+
+</style>
+<div id="transitionDemo">Hover over me!</div>
+<p id="spinner">Spin me right round...</p>
+	</body>
+</html>

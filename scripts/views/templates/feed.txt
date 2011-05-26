@@ -1,0 +1,4 @@
+<h2>{{heading}}</h3>
+{{#items}}
+	{{> item}}
+{{/items}}

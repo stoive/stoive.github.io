@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<script>
+	var bubble = new google.bookmarkbubble.Bubble();
+	//bubble.isAllowedToShow_ = function() {return true;};
+	bubble.showIfAllowed();
+</script>
+<h1>Application Cache</h1>
+<p>
+	Sweet, so we can save our web application's data to the user's browser. So
+	how about saving the application itself to the user's browser?
+</p>
+<p>
+	That's where the HTML5 Application Cache comes in. A 'Cache Manifest' file
+	is generated containing a list of <em>all</em> of the files in the web
+	application (and fallbacks for when the user is offline). When the user next
+	navigates to the web application (through, say, a link on the home screen,
+	or the taskbar), all the pages will be loaded from the cache, instead of
+	over the network.
+</p>
+<p>
+	If you've built your application in the right way, this can be a huge
+	performance boost. Make all the pages static (so that they can be cached),
+	and only ever load the data over the network.
+</p>
+<p>
+	You can check the source of this web app for an example.
+</p>
+<!-- *that's your cue!* -->
+	</body>
+</html>

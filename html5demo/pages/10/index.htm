@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+<h1>Geolocation</h1>
+<p>You are here:</p>
+<style>
+th {
+	text-align: right;
+	padding-right: 10px;
+}
+</style>
+<table>
+	<tbody>
+		<tr>
+			<th>latitude</th>
+			<td class="latitude"></td>
+		</tr>
+		<tr>
+			<th>longitude</th>
+			<td class="longitude"></td>
+		</tr>
+		<tr>
+			<th>accuracy</th>
+			<td class="accuracy"></td>
+		</tr>
+		<tr>
+			<th>altitude</th>
+			<td class="altitude"></td>
+		</tr>
+		<tr>
+			<th>altitude accuracy</th>
+			<td class="altitudeAccuracy"></td>
+		</tr>
+		<tr>
+			<th>speed</th>
+			<td class="speed"></td>
+		</tr>
+		<tr>
+			<th>heading</th>
+			<td class="heading"></td>
+		</tr>
+	</tbody>
+</table>
+<script>
+if (navigator.geolocation) {
+	navigator.geolocation.watchPosition(function (e) {
+		$('.latitude').text(e.coords.latitude);
+		$('.longitude').text(e.coords.longitude);
+		$('.accuracy').text(e.coords.accuracy);
+		$('.altitude').text(e.coords.altitude);
+		$('.altitudeAccuracy').text(e.coords.altitudeAccuracy);
+		$('.speed').text(e.coords.speed);
+		$('.heading').text(e.coords.heading);
+	});
+}
+</script>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+body {
+	font-family: 'Crimson Text', arial, serif;
+}
+
+h1, h2 {
+	color: #F95;
+	letter-spacing: 5px;
+}
+
+nav {
+	margin: 5px 0;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #888;
+}
+
+a:hover {
+	color: #00F;
+}
+
+header {
+	margin: 5px;
+	padding: 10px;
+}
+
+header h1 {
+	font-size: 50pt;
+	line-height: 0.4em;
+	margin: 0.5em 0 0 0;
+}
+
+header a {
+	margin-right: 20px;
+}
+
+section {
+	float: left;
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+}
+
+section h2 {
+	margin: 5px 0;
+}
+
+article {
+	margin: 10px auto 40px auto;
+}
+
+article .main {
+	display: block;
+	line-height: 0.9em;
+	text-align: justify;
+	width: 100%;
+	color: #888;
+	font-size: 0.8em;
+}
+
+article .meta {
+	display: block;
+	color: #888;
+	line-height: 0.9em;
+	font-size: 0.8em;
+	text-align: justify;
+	margin: 0 auto;
+	width: 100%;
+}
+
+span.digits {
+	font-weight: bold;
+}
+
+article :hover {
+	color: #00F;
+	cursor: pointer;
+}
+
+article .main::first-line {
+	font-variant: small-caps;
+	font-size: 1.9em;
+	color: #F55;
+	line-height: 0.8em;
+}
+
+article .main::first-letter {
+	font-weight: bold;
+	font-size: 2.35em;
+	float: left;
+	line-height: 0.7em;
+	text-transform: capitalize;
+}
+
+/*
+article {
+	border-top: 1px solid gray;
+	-webkit-border-radius: 18px;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+article time, article span.location, article span.name {
+	display: block;
+	font-size: 10px;
+	font-family: sans-serif;	
+}
+
+article h3 {
+	margin: 0.1em;
+	font-size: 14px;
+}
+
+article p {
+	margin: 0.5em 0;
+	font-size: 12px;
+}
+*/
+

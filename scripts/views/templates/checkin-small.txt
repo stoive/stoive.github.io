@@ -1,0 +1,13 @@
+<article>
+	<a href="{{link}}">
+		<div class="main">
+			{{content}}
+			&para;
+			{{repository}}
+			&para;
+			{{name}}
+			&para;
+			{{time}}
+		</div>
+	</a>
+</article>

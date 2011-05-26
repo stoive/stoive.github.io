@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<!--
+			We're using Mustache templates as our Razor-like view engine.
+			This first one imports the data without HTML-escaping, so think of
+			it like an ASCX control. The second one does do escaping, so think of
+			it as a placeholder or .Text value.
+		-->
+		<section class="main">{{> main}}</section>
+		<section class="source"><pre>{{source}}</pre></section>
+	</body>
+</html>
