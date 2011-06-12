@@ -28,7 +28,8 @@ function sendMessage() {
 
  var socket = new io.Socket(); 
  socket.on('message', function(e) {
-	document.getElementById('chat-output').value += "\n" + e;
+	var message = JSON.parse(e);
+	if (message.chat) document.getElementById('chat-output').value += "\n" + message.chat;
  });
  $('#chat-send').click(sendMessage);
  $('#chat-input').keypress(function(e) { if (e.which === 13) sendMessage(); });
