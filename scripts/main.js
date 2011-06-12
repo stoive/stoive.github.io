@@ -1,19 +1,5 @@
 require.ready(function(){
 	require(["views/checkin", "views/tweet", "views/blog", "models/checkin", "models/tweet", "models/blog"], function(checkinView, tweetView, blogView, checkinModel, tweetModel, blogModel) {
-		//document.body.appendChild(tweetView.el);
-		//document.body.appendChild(checkinView.el);
-		//document.body.appendChild(blogView.el);
-		/*
-		var tweets = new tweetModel.TweetCollection([
-			new tweetModel.Tweet({
-				name: "stoive",
-				time: new Date().toUTCString(),
-				location: "Sydney, Australia",
-				content: "Live twitter feed coming soon",
-				link: "http://twitter.com/stoive"
-			})
-		]);
-		*/
 		var checkins = new checkinModel.CheckinCollection();
 		var blogs = new blogModel.BlogCollection();
 		var tweets = new tweetModel.TweetCollection();
@@ -44,5 +30,21 @@ require.ready(function(){
 		tv.render();
 		bv.render();
 		cv.render();
+
+		var socket = new io.Socket(); 
+		socket.on('message', function(e) {
+			if (e.update) {
+				if (e.update === "/feeds/twitter") {
+					tweets.fetch();
+				}
+				else if (e.update === "/feeds/blog") {
+					blogs.fetch();
+				}
+				else if (e.update === "/feeds/github") {
+					checkins.fetch();
+				}
+			}
+		});socket.connect();
+		
 	});
 });
