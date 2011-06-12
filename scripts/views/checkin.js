@@ -14,7 +14,12 @@ define(["text!views/templates/checkin-small.txt", "text!views/templates/feed.txt
 					item: checkinTemplate
 				}
 			);
-
+			
+			while ($(document).height > 300 && $(document).height() > $(window).height())
+			{
+				$(this.el).children().last().remove()
+			}
+			
 			return this;
 		}
 	});

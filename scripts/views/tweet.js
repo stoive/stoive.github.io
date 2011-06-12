@@ -14,6 +14,12 @@ define(["text!views/templates/tweet.txt", "text!views/templates/feed.txt"], func
 					item: tweetTemplate
 				}
 			);
+
+			while ($(document).height > 300 && $(document).height() > $(window).height())
+			{
+				$(this.el).children().last().remove()
+			}
+
 			return this;
 		}
 	});

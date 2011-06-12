@@ -22,6 +22,11 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 				});
 			}, 0);
 
+			while ($(document).height > 300 && $(document).height() > $(window).height())
+			{
+				$(this.el).children().last().remove()
+			}
+
 			return this;
 		}
 	});
