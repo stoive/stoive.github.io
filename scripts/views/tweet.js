@@ -15,7 +15,7 @@ define(["text!views/templates/tweet.txt", "text!views/templates/feed.txt"], func
 				}	
 				
 				// detect new items
-				var delta = [], 
+				var additional = [], 
 					feed = this.model.toJSON(),
 					curr;
 				while (!_.isEqual(curr = feed.shift(), existing[0])) additional.push(curr);
