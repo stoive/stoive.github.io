@@ -26,6 +26,11 @@ define(["text!views/templates/checkin-small.txt", "text!views/templates/feed.txt
 						checkinTemplate,
 						additional[i]
 					));
+					// animate if this is a new item
+					if (existing.length > 0) this.$('article').each(function(i, el) {
+						$(el).addClass('new');
+						setTimeout(function() { $(el).removeClass('new'); });
+					});
 				}
 				
 				// remove items which drop off the bottom of the screen

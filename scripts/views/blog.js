@@ -20,7 +20,6 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 					feed = this.model.toJSON(),
 					curr;
 				while (!_.isEqual(curr = feed.shift(), existing[0])) additional.push(curr);
-				existing = feed;
 				
 				// add new items to the top
 				for (var i = additional.length - 1; i >=  0; --i) {
@@ -28,7 +27,8 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 						blogTemplate,
 						additional[i]
 					));
-					this.$('article').each(function(i, el) {
+					// animate if this is a new item
+					if (existing.length > 0) this.$('article').each(function(i, el) {
 						$(el).addClass('new');
 						setTimeout(function() { $(el).removeClass('new'); });
 					});
@@ -40,6 +40,7 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 					$(this.el).children().last().remove()
 				}
 
+				existing = feed;
 				return this;
 			}
 		})()
