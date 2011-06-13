@@ -48,8 +48,13 @@ section h2 {
 	margin: 5px 0;
 }
 
+article.new {
+	-webkit-transform: scaley(0.0);
+}
+
 article {
 	margin: 10px auto 40px auto;
+	-webkit-transition: -webkit-transform 0.5s linear;
 }
 
 article .main {
