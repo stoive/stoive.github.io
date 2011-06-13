@@ -1,4 +1,4 @@
-define(["text!views/templates/lastfm.txt", "text!views/templates/lastfm.txt"], function(feedTemplate, itemTemplate) {
+define(["text!views/templates/lastfm.txt", "text!views/templates/lastfm-item.txt"], function(feedTemplate, itemTemplate) {
 	var LastFmView = Backbone.View.extend({
 		tagName: "footer",
 		id: "lastfm-feed",

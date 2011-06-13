@@ -99,6 +99,7 @@ footer {
 	width: 100%;
 	background-color: white;
 	opacity: 0.7;
+	white-space: nowrap;
 }
 
 footer span {
