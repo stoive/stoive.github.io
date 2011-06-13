@@ -50,13 +50,6 @@ section h2 {
 
 article {
 	margin: 10px auto 40px auto;
-	-webkit-transition: background-color 5s ease-in, box-shadow 5s ease-in;
-}
-
-article.flare {
-	box-shadow: 0 0 200px yellow;
-	padding: 5px;
-	border: 1px solid red;
 }
 
 article .main {
