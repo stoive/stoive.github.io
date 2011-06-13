@@ -45,6 +45,7 @@ require.ready(function(){
 		songs.bind('refresh', function() {
 			lv.render();
 		});
+		songs.fetch();
 
 		document.body.appendChild(tv.el);
 		document.body.appendChild(bv.el);
@@ -72,7 +73,7 @@ require.ready(function(){
 					songs.fetch();
 				}
 			}
-		});socket.connect();
-		
+		});
+		socket.connect();
 	});
 });
