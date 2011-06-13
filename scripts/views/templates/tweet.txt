@@ -1,11 +1,13 @@
-<a href="{{link}}">
-	<div class="main">
-		{{content}}
-		&para;
-		{{name}}
-		&para;
-		{{time}}
-		&para;
-		{{location}}
-	</div>
-</a>
+<article>
+	<a href="{{link}}">
+		<div class="main">
+			{{content}}
+			&para;
+			{{name}}
+			&para;
+			{{time}}
+			&para;
+			{{location}}
+		</div>
+	</a>
+</article>

@@ -24,12 +24,10 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 				
 				// add new items to the top
 				for (var i = additional.length - 1; i >=  0; --i) {
-					var em = document.createElement('article');
-					em.innerHTML = Mustache.to_html(
+					this.$('h2').after(em.innerHTML = Mustache.to_html(
 						blogTemplate,
 						additional[i]
-					);
-					this.$('h2').after(em);
+					));
 				}
 				
 				// remove items which drop off the bottom of the screen
