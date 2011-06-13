@@ -23,7 +23,7 @@ define(["text!views/templates/checkin-small.txt", "text!views/templates/feed.txt
 				// add new items to the top
 				for (var i = additional.length - 1; i >=  0; --i) {
 					this.$('h2').after(Mustache.to_html(
-						blogTemplate,
+						checkinTemplate,
 						additional[i]
 					));
 				}

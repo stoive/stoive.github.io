@@ -24,7 +24,7 @@ define(["text!views/templates/tweet.txt", "text!views/templates/feed.txt"], func
 				// add new items to the top
 				for (var i = additional.length - 1; i >=  0; --i) {
 					this.$('h2').after(Mustache.to_html(
-						blogTemplate,
+						tweetTemplate,
 						additional[i]
 					));
 				}
