@@ -50,10 +50,16 @@ section h2 {
 
 article {
 	margin: 10px auto 40px auto;
+	-webkit-transition: background-color 5s ease-in, box-shadow 5s ease-in;
+}
+
+article.flare {
+	box-shadow: 0 0 200px yellow;
+	padding: 5px;
+	border: 1px solid red;
 }
 
 article .main {
-	display: block;
 	line-height: 0.9em;
 	text-align: justify;
 	width: 100%;
@@ -62,7 +68,6 @@ article .main {
 }
 
 article .meta {
-	display: block;
 	color: #888;
 	line-height: 0.9em;
 	font-size: 0.8em;
