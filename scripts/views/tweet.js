@@ -19,7 +19,6 @@ define(["text!views/templates/tweet.txt", "text!views/templates/feed.txt"], func
 					feed = this.model.toJSON(),
 					curr;
 				while (!_.isEqual(curr = feed.shift(), existing[0])) additional.push(curr);
-				existing = feed;
 				
 				// add new items to the top
 				for (var i = additional.length - 1; i >=  0; --i) {
@@ -40,6 +39,7 @@ define(["text!views/templates/tweet.txt", "text!views/templates/feed.txt"], func
 					$(this.el).children().last().remove()
 				}
 
+				existing = feed;
 				return this;
 			}
 		})()
