@@ -1,2 +1,2 @@
-<a href="{{link}}">{{content}}</a>
+<a href="{{link}}">{{content}}</a> | 
 
