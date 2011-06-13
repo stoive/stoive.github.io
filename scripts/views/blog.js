@@ -27,8 +27,10 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 					this.$('h2').after(Mustache.to_html(
 						blogTemplate,
 						additional[i]
-					)).addClass('new').each(function(i, el) {
-						setTimeout(function() { $(el).removeClass('new'); }, 0);	
+					));
+					this.$('article').each(function(i, el) {
+						$(el).addClass('new');
+						setTimeout(function() { $(el).removeClass('new'); });
 					});
 				}
 				
