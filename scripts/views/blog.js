@@ -10,7 +10,7 @@ define(["text!views/templates/blog-small.txt", "text!views/templates/feed.txt"],
 				if (this.$('h2').length === 0) {
 					this.el.innerHTML = Mustache.to_html(
 						feedTemplate,
-						{ heading: "blog" }
+						{ heading: "Stack Overflow" }
 					);
 
 				}	

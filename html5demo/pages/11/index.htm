@@ -27,8 +27,7 @@ function sendMessage() {
 }
 
  var socket = new io.Socket(); 
- socket.on('message', function(e) {
-	var message = JSON.parse(e);
+ socket.on('message', function(message) {
 	if (message.chat) document.getElementById('chat-output').value += "\n" + message.chat;
  });
  $('#chat-send').click(sendMessage);

@@ -1,0 +1,1000 @@
+# Webalizer V2.01-10 Incremental Data - 04/01/2009 02:35:39
+2009 4 1 2 35 39
+499 295 118 31 27 19 3970041 246 104 0
+118 121 228 1 1
+499 295 3970041 118 246 104
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+228 130 1596045 116
+150 91 1388237 73
+121 74 985759 57
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+295
+0
+0
+0
+0
+0
+0
+0
+5
+0
+0
+21
+0
+0
+0
+0
+0
+0
+178
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 7 1818846752 32081 7 1
+/cvDocs/stylesheet.css
+0 2 1852383333 0 0 0
+/cvDocs/cvDoc/CvProcessInfo.htm
+0 1 1953853216 11528 1 0
+/cvDocs/cvDoc/CvCivicOptionInfo.htm
+0 1 1818846752 11481 1 0
+/cvDocs/cvDoc/CySign.htm
+0 1 1948282223 0 1 0
+/python/lesson10/
+0 10 1646277664 117620 2 1
+/python/lesson11/
+0 5 1918987887 75810 3 0
+/cvDocs/cvDoc/CvGameText.htm
+0 1 1852795252 0 0 1
+/cvDocs/cvDoc/CvArtInfoUnit.htm
+0 1 1970544740 11598 0 0
+/robots.txt
+0 3 1851859047 0 0 0
+/cvDocs/cvDoc/CvArtInfoBuilding.htm
+0 1 1952672100 11561 1 0
+/cvDocs/cvDoc/IDInfo.htm
+0 1 1918987887 11701 1 0
+/stylesheet.css
+0 53 1718558835 104448 0 0
+/cvDocs/cvDoc/CvGameOptionInfo.htm
+0 2 1835102823 11467 1 0
+/cvDocs/cvDoc/CyInterface.htm
+0 2 544503909 34282 0 0
+/cvDocs/
+0 1 1634476133 15276 0 0
+/cvDocs/cvDoc/CvColorInfo.htm
+0 1 1852401509 0 1 0
+/python/lesson01/
+0 17 543236197 104016 2 0
+/python/lesson02/
+0 25 544239471 240725 5 0
+/python/lesson03/
+0 23 1701605493 160923 2 0
+/python/lesson04/
+0 24 543973737 302654 4 2
+/cvDocs/cvDoc/CvAssetInfoBase.htm
+0 1 544433520 11573 0 1
+/images/01_garble.jpg
+1 17 1919230064 1406192 0 0
+/python/lesson05/
+0 17 1830841967 358848 9 3
+/cvDocs/cvDoc/CvArtInfoImprovement.htm
+0 1 1954047348 11577 0 0
+/python/lesson06/
+0 15 1981836911 220738 8 1
+/python/lesson07/
+0 8 1948279908 108624 1 0
+/python/lesson08/
+0 12 1768693876 209592 3 2
+/python/
+0 54 1953656688 270244 45 0
+/python/lesson09/
+0 8 1936482665 62752 3 0
+/cvDocs/cvDoc/CyReplayInfo.htm
+0 1 1768169573 13689 0 0
+# End Of Table - urls
+# -sites- (monthly)
+206.132.194.9
+0 2 0 450 0 0
+-
+71.77.29.83
+0 10 8 155656 1 1238547302
+/python/lesson05/
+70.116.75.113
+0 2 1 5406 1 1238550121
+/python/
+173.73.114.252
+0 1 1 7844 1 1238549779
+/python/lesson09/
+public-nat.mobilefree.jp
+0 1 0 209 0 0
+-
+141.212.51.199
+0 3 3 43848 1 1238544661
+/python/lesson03/
+8.12.234.145
+0 1 1 4583 1 1238547371
+/
+142.162.150.149
+0 8 6 41016 1 1238546971
+/python/lesson04/
+115.129.16.242
+0 2 0 432 0 0
+-
+115.124.0.4
+0 4 4 36718 1 1238552482
+/python/lesson07/
+69.39.8.140
+0 4 2 20060 1 1238552541
+/python/lesson08/
+154.194.woodlandvillage.net
+0 4 0 900 0 0
+-
+117.193.225.205
+0 3 1 5615 1 1238544353
+/python/
+150.101.232.174
+0 5 4 34593 1 1238552807
+/python/lesson05/
+213.243.134.150
+0 5 2 12432 1 1238544315
+/python/lesson02/
+71.238.162.100
+0 3 1 5615 1 1238550691
+/python/
+156.56.138.136
+0 7 3 40472 2 1238548742
+/python/lesson09/
+c-69-254-190-177.hsd1.ar.comcast.net
+0 6 0 1296 0 0
+-
+64.37.153.213
+0 1 1 5197 1 1238549648
+/python/
+220.181.32.22
+0 2 2 9166 2 1238548437
+/
+crawl-66-249-70-203.googlebot.com
+0 4 1 5197 2 1238550739
+/cvDocs/cvDoc/CvGameOptionInfo.htm
+119.63.193.141
+0 1 0 0 1 1238546983
+/cvDocs/cvDoc/CvColorInfo.htm
+63.252.67.133
+0 6 5 111599 1 1238552888
+/python/lesson02/
+c-24-13-167-33.hsd1.il.comcast.net
+0 6 2 11230 1 1238546751
+/python/
+203.52.130.136
+0 1 0 209 0 0
+-
+203.52.130.138
+0 1 1 4583 1 1238548499
+/
+67.86.36.253
+0 2 0 432 0 0
+-
+200.12.238.24.in-addr.arpa.data1-beacon.nj.hwccustomers.com
+0 2 0 450 0 0
+-
+138.89.106.250
+0 8 7 133019 1 1238551440
+/python/lesson04/
+128.82.13.220
+0 3 1 5615 1 1238547439
+/python/
+198.53.240.85
+0 3 1 5615 1 1238548537
+/python/
+72.201.35.86
+0 4 2 10812 1 1238547993
+/python/
+216.167.152.189
+0 16 0 3456 0 0
+-
+71.104.12.147
+0 4 0 836 0 0
+-
+snca-11-218.dsl.netins.net
+0 14 0 3150 0 0
+-
+llf531049.crawl.yahoo.net
+0 4 3 40267 1 1238544662
+/cvDocs/cvDoc/CyInterface.htm
+69.115.92.44
+0 9 8 90287 1 1238552991
+/python/lesson10/
+sd-16074.dedibox.fr
+0 1 1 15162 1 1238545679
+/python/lesson11/
+71.63.154.102
+0 2 0 418 0 0
+-
+65.55.106.121
+0 1 1 0 0 0
+-
+152.30.226.127
+0 1 1 5197 1 1238550743
+/python/
+cpe-67-247-50-219.nyc.res.rr.com
+0 1 0 209 0 0
+-
+71.162.106.183
+0 6 5 38631 1 1238547182
+/python/lesson04/
+70.55.77.60
+0 4 0 0 1 1238545778
+/python/lesson04/
+adsl-76-247-132-180.dsl.lgtpmi.sbcglobal.net
+0 5 3 32685 1 1238553008
+/python/lesson03/
+129.170.91.228
+0 12 10 115923 1 1238547223
+/python/lesson09/
+98.223.211.99
+0 2 1 5406 1 1238553032
+/python/
+c0d.entireweb.com
+0 2 2 11701 1 1238551548
+/cvDocs/cvDoc/IDInfo.htm
+24.195.198.73
+0 3 2 16142 1 1238544909
+/python/lesson04/
+68.116.183.175
+0 3 1 5615 1 1238550795
+/python/
+66-146-191-45.skyriver.net
+0 7 4 102418 1 1238552479
+/python/lesson01/
+69.228.26.218
+0 4 3 15245 1 1238550601
+/python/lesson03/
+70.51.236.74
+0 8 7 133019 1 1238549715
+/python/lesson04/
+75.175.41.238
+0 9 7 133228 1 1238550229
+/python/lesson04/
+198.146.87.128
+0 4 0 864 0 0
+-
+spoons.cups.cs.cmu.edu
+0 3 2 4792 1 1238544723
+/
+24.56.24.164
+0 2 2 27529 1 1238544405
+/python/lesson10/
+72.224.200.198
+0 3 1 5615 1 1238552199
+/python/
+99.188.222.113
+0 7 4 53477 2 1238548466
+/python/lesson05/
+81.106.167.124
+0 3 0 627 0 0
+-
+61.135.168.39
+0 1 1 4583 1 1238548117
+/
+99.52.202.83
+0 2 0 450 0 0
+-
+67.181.220.98
+0 3 1 5615 1 1238547143
+/python/
+ip98-169-105-109.dc.dc.cox.net
+0 4 2 12223 1 1238547363
+/python/lesson02/
+dj531063.crawl.yahoo.net
+0 2 1 5436 1 1238548189
+/python/
+216.121.219.241
+0 3 1 5615 1 1238551763
+/python/
+158.39.243.108
+0 1 0 209 0 0
+-
+24.18.179.77
+0 6 5 38631 1 1238552788
+/python/lesson04/
+222.127.195.14
+0 4 2 25022 1 1238544716
+/python/lesson05/
+24.27.45.164
+0 6 3 38809 1 1238552208
+/python/lesson07/
+129.108.68.69
+0 2 1 5406 1 1238546172
+/python/
+74.72.227.101
+0 3 1 5615 1 1238552963
+/python/
+laycat.com
+0 1 1 7844 1 1238544572
+/python/lesson09/
+82.2.168.166
+0 5 3 16009 1 1238545573
+/python/
+67.172.21.175
+0 3 2 12014 1 1238552998
+/python/lesson02/
+203-179-87-220.cust.bit-drive.ne.jp
+0 10 7 149464 3 1238548603
+/python/lesson11/
+98.227.104.119
+0 10 8 146395 1 1238545635
+/python/lesson11/
+138.86.188.121
+0 3 2 18152 1 1238548039
+/python/lesson06/
+76.19.39.161
+0 3 1 5615 1 1238544524
+/python/
+default.trimble.co.nz
+0 3 2 19851 1 1238544872
+/python/lesson08/
+129.170.95.120
+0 1 0 209 0 0
+-
+kyklo.com
+0 3 3 44504 1 1238546539
+/cvDocs/
+76.187.95.31
+0 11 7 80570 2 1238552886
+/python/lesson05/
+98.223.115.251
+0 3 3 51773 1 1238551197
+/python/lesson07/
+207.47.98.129.static.nextweb.net
+0 3 2 14147 1 1238548485
+/python/lesson10/
+117.193.229.2
+0 11 11 137232 1 1238547128
+/python/lesson11/
+192.231.231.33
+0 4 3 17211 1 1238550937
+/python/lesson02/
+69.225.11.18
+0 3 3 24839 1 1238550443
+/python/lesson08/
+151.197.125.35
+0 4 3 52161 2 1238547423
+/python/lesson06/
+u2.gpu45.samsung.co.kr
+0 6 5 111599 1 1238547650
+/python/lesson02/
+71.113.216.87
+0 11 7 133715 1 1238552279
+/python/lesson04/
+cpe-67-49-6-43.socal.res.rr.com
+0 4 2 18361 1 1238546569
+/python/lesson06/
+24.79.227.173
+0 3 1 5615 1 1238552757
+/python/
+69.29.230.24
+0 5 4 101970 1 1238549136
+/python/lesson01/
+171.64.163.242
+0 3 2 14147 1 1238544577
+/python/lesson10/
+190.79.55.224
+0 4 2 16351 1 1238548058
+/python/lesson04/
+117.195.0.171
+0 1 0 209 0 0
+-
+70.248.191.150
+0 7 5 120368 1 1238544945
+/python/lesson04/
+74.38.129.147
+0 6 4 24874 1 1238544507
+/python/lesson03/
+host6.molex.com
+0 2 0 450 0 0
+-
+218.94.130.82
+0 1 0 209 0 0
+-
+67.195.37.125
+0 8 7 88489 2 1238553273
+/cvDocs/cvDoc/CyInterface.htm
+wheke.wetafx.co.nz
+0 1 0 209 0 0
+-
+182ob.scansafe.net
+0 10 9 162247 1 1238548536
+/python/lesson10/
+72.81.196.194
+0 3 3 96564 1 1238551320
+/python/lesson01/
+128.172.231.144
+0 3 1 5615 1 1238549846
+/python/
+24.140.71.152
+0 6 2 25440 1 1238550725
+/python/lesson05/
+219-87-77-101.static.tfn.net.tw
+0 1 0 209 0 0
+-
+68.165.132.140
+0 8 8 116359 3 1238551927
+/python/lesson10/
+153.107.33.152
+0 4 4 36246 1 1238547108
+/python/lesson04/
+24.44.143.131
+0 6 5 111599 1 1238553075
+/python/lesson02/
+98.223.195.57
+0 3 3 38888 1 1238544050
+/python/lesson09/
+124.121.102.3
+0 1 1 2176 0 0
+-
+us02-cip.synopsys.com
+0 4 3 23349 1 1238547178
+/python/lesson06/
+cowboy.intuit.com
+0 2 2 38195 2 1238552757
+/python/lesson06/
+n218103092061.netvigator.com
+0 5 2 29345 1 1238550614
+/python/lesson07/
+12.166.11.33
+0 7 6 119262 1 1238548740
+/python/lesson03/
+95.168.97.38
+0 1 0 209 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+206.132.194.9
+0 2 0 450 0 0
+-
+71.77.29.83
+0 10 8 155656 1 1238547302
+/python/lesson05/
+70.116.75.113
+0 2 1 5406 1 1238550121
+/python/
+173.73.114.252
+0 1 1 7844 1 1238549779
+/python/lesson09/
+public-nat.mobilefree.jp
+0 1 0 209 0 0
+-
+141.212.51.199
+0 3 3 43848 1 1238544661
+/python/lesson03/
+8.12.234.145
+0 1 1 4583 1 1238547371
+/
+142.162.150.149
+0 8 6 41016 1 1238546971
+/python/lesson04/
+115.129.16.242
+0 2 0 432 0 0
+-
+115.124.0.4
+0 4 4 36718 1 1238552482
+/python/lesson07/
+69.39.8.140
+0 4 2 20060 1 1238552541
+/python/lesson08/
+154.194.woodlandvillage.net
+0 4 0 900 0 0
+-
+117.193.225.205
+0 3 1 5615 1 1238544353
+/python/
+150.101.232.174
+0 5 4 34593 1 1238552807
+/python/lesson05/
+213.243.134.150
+0 5 2 12432 1 1238544315
+/python/lesson02/
+71.238.162.100
+0 3 1 5615 1 1238550691
+/python/
+156.56.138.136
+0 7 3 40472 2 1238548742
+/python/lesson09/
+c-69-254-190-177.hsd1.ar.comcast.net
+0 6 0 1296 0 0
+-
+64.37.153.213
+0 1 1 5197 1 1238549648
+/python/
+220.181.32.22
+0 2 2 9166 2 1238548437
+/
+crawl-66-249-70-203.googlebot.com
+0 4 1 5197 2 1238550739
+/cvDocs/cvDoc/CvGameOptionInfo.htm
+119.63.193.141
+0 1 0 0 1 1238546983
+/cvDocs/cvDoc/CvColorInfo.htm
+63.252.67.133
+0 6 5 111599 1 1238552888
+/python/lesson02/
+c-24-13-167-33.hsd1.il.comcast.net
+0 6 2 11230 1 1238546751
+/python/
+203.52.130.136
+0 1 0 209 0 0
+-
+203.52.130.138
+0 1 1 4583 1 1238548499
+/
+67.86.36.253
+0 2 0 432 0 0
+-
+200.12.238.24.in-addr.arpa.data1-beacon.nj.hwccustomers.com
+0 2 0 450 0 0
+-
+138.89.106.250
+0 8 7 133019 1 1238551440
+/python/lesson04/
+128.82.13.220
+0 3 1 5615 1 1238547439
+/python/
+198.53.240.85
+0 3 1 5615 1 1238548537
+/python/
+72.201.35.86
+0 4 2 10812 1 1238547993
+/python/
+216.167.152.189
+0 16 0 3456 0 0
+-
+71.104.12.147
+0 4 0 836 0 0
+-
+snca-11-218.dsl.netins.net
+0 14 0 3150 0 0
+-
+llf531049.crawl.yahoo.net
+0 4 3 40267 1 1238544662
+/cvDocs/cvDoc/CyInterface.htm
+69.115.92.44
+0 9 8 90287 1 1238552991
+/python/lesson10/
+sd-16074.dedibox.fr
+0 1 1 15162 1 1238545679
+/python/lesson11/
+71.63.154.102
+0 2 0 418 0 0
+-
+65.55.106.121
+0 1 1 0 0 0
+-
+152.30.226.127
+0 1 1 5197 1 1238550743
+/python/
+cpe-67-247-50-219.nyc.res.rr.com
+0 1 0 209 0 0
+-
+71.162.106.183
+0 6 5 38631 1 1238547182
+/python/lesson04/
+70.55.77.60
+0 4 0 0 1 1238545778
+/python/lesson04/
+adsl-76-247-132-180.dsl.lgtpmi.sbcglobal.net
+0 5 3 32685 1 1238553008
+/python/lesson03/
+129.170.91.228
+0 12 10 115923 1 1238547223
+/python/lesson09/
+98.223.211.99
+0 2 1 5406 1 1238553032
+/python/
+c0d.entireweb.com
+0 2 2 11701 1 1238551548
+/cvDocs/cvDoc/IDInfo.htm
+24.195.198.73
+0 3 2 16142 1 1238544909
+/python/lesson04/
+68.116.183.175
+0 3 1 5615 1 1238550795
+/python/
+66-146-191-45.skyriver.net
+0 7 4 102418 1 1238552479
+/python/lesson01/
+69.228.26.218
+0 4 3 15245 1 1238550601
+/python/lesson03/
+70.51.236.74
+0 8 7 133019 1 1238549715
+/python/lesson04/
+75.175.41.238
+0 9 7 133228 1 1238550229
+/python/lesson04/
+198.146.87.128
+0 4 0 864 0 0
+-
+spoons.cups.cs.cmu.edu
+0 3 2 4792 1 1238544723
+/
+24.56.24.164
+0 2 2 27529 1 1238544405
+/python/lesson10/
+72.224.200.198
+0 3 1 5615 1 1238552199
+/python/
+99.188.222.113
+0 7 4 53477 2 1238548466
+/python/lesson05/
+81.106.167.124
+0 3 0 627 0 0
+-
+61.135.168.39
+0 1 1 4583 1 1238548117
+/
+99.52.202.83
+0 2 0 450 0 0
+-
+67.181.220.98
+0 3 1 5615 1 1238547143
+/python/
+ip98-169-105-109.dc.dc.cox.net
+0 4 2 12223 1 1238547363
+/python/lesson02/
+dj531063.crawl.yahoo.net
+0 2 1 5436 1 1238548189
+/python/
+216.121.219.241
+0 3 1 5615 1 1238551763
+/python/
+158.39.243.108
+0 1 0 209 0 0
+-
+24.18.179.77
+0 6 5 38631 1 1238552788
+/python/lesson04/
+222.127.195.14
+0 4 2 25022 1 1238544716
+/python/lesson05/
+24.27.45.164
+0 6 3 38809 1 1238552208
+/python/lesson07/
+129.108.68.69
+0 2 1 5406 1 1238546172
+/python/
+74.72.227.101
+0 3 1 5615 1 1238552963
+/python/
+laycat.com
+0 1 1 7844 1 1238544572
+/python/lesson09/
+82.2.168.166
+0 5 3 16009 1 1238545573
+/python/
+67.172.21.175
+0 3 2 12014 1 1238552998
+/python/lesson02/
+203-179-87-220.cust.bit-drive.ne.jp
+0 10 7 149464 3 1238548603
+/python/lesson11/
+98.227.104.119
+0 10 8 146395 1 1238545635
+/python/lesson11/
+138.86.188.121
+0 3 2 18152 1 1238548039
+/python/lesson06/
+76.19.39.161
+0 3 1 5615 1 1238544524
+/python/
+default.trimble.co.nz
+0 3 2 19851 1 1238544872
+/python/lesson08/
+129.170.95.120
+0 1 0 209 0 0
+-
+kyklo.com
+0 3 3 44504 1 1238546539
+/cvDocs/
+76.187.95.31
+0 11 7 80570 2 1238552886
+/python/lesson05/
+98.223.115.251
+0 3 3 51773 1 1238551197
+/python/lesson07/
+207.47.98.129.static.nextweb.net
+0 3 2 14147 1 1238548485
+/python/lesson10/
+117.193.229.2
+0 11 11 137232 1 1238547128
+/python/lesson11/
+192.231.231.33
+0 4 3 17211 1 1238550937
+/python/lesson02/
+69.225.11.18
+0 3 3 24839 1 1238550443
+/python/lesson08/
+151.197.125.35
+0 4 3 52161 2 1238547423
+/python/lesson06/
+u2.gpu45.samsung.co.kr
+0 6 5 111599 1 1238547650
+/python/lesson02/
+71.113.216.87
+0 11 7 133715 1 1238552279
+/python/lesson04/
+cpe-67-49-6-43.socal.res.rr.com
+0 4 2 18361 1 1238546569
+/python/lesson06/
+24.79.227.173
+0 3 1 5615 1 1238552757
+/python/
+69.29.230.24
+0 5 4 101970 1 1238549136
+/python/lesson01/
+171.64.163.242
+0 3 2 14147 1 1238544577
+/python/lesson10/
+190.79.55.224
+0 4 2 16351 1 1238548058
+/python/lesson04/
+117.195.0.171
+0 1 0 209 0 0
+-
+70.248.191.150
+0 7 5 120368 1 1238544945
+/python/lesson04/
+74.38.129.147
+0 6 4 24874 1 1238544507
+/python/lesson03/
+host6.molex.com
+0 2 0 450 0 0
+-
+218.94.130.82
+0 1 0 209 0 0
+-
+67.195.37.125
+0 8 7 88489 2 1238553273
+/cvDocs/cvDoc/CyInterface.htm
+wheke.wetafx.co.nz
+0 1 0 209 0 0
+-
+182ob.scansafe.net
+0 10 9 162247 1 1238548536
+/python/lesson10/
+72.81.196.194
+0 3 3 96564 1 1238551320
+/python/lesson01/
+128.172.231.144
+0 3 1 5615 1 1238549846
+/python/
+24.140.71.152
+0 6 2 25440 1 1238550725
+/python/lesson05/
+219-87-77-101.static.tfn.net.tw
+0 1 0 209 0 0
+-
+68.165.132.140
+0 8 8 116359 3 1238551927
+/python/lesson10/
+153.107.33.152
+0 4 4 36246 1 1238547108
+/python/lesson04/
+24.44.143.131
+0 6 5 111599 1 1238553075
+/python/lesson02/
+98.223.195.57
+0 3 3 38888 1 1238544050
+/python/lesson09/
+124.121.102.3
+0 1 1 2176 0 0
+-
+us02-cip.synopsys.com
+0 4 3 23349 1 1238547178
+/python/lesson06/
+cowboy.intuit.com
+0 2 2 38195 2 1238552757
+/python/lesson06/
+n218103092061.netvigator.com
+0 5 2 29345 1 1238550614
+/python/lesson07/
+12.166.11.33
+0 7 6 119262 1 1238548740
+/python/lesson03/
+95.168.97.38
+0 1 0 209 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+1 234
+http://www.google.com.au/search
+0 2
+http://www.google.com/search
+0 22
+http://www.sthurlow.com/python/lesson01/
+1 42
+http://www.sthurlow.com/python/lesson02/
+1 24
+http://www.sthurlow.com/python/lesson03/
+1 19
+http://www.google.co.in/search
+0 1
+http://www.sthurlow.com/python/lesson04/
+1 13
+http://www.sthurlow.com/python/lesson05/
+1 16
+http://www.sthurlow.com/python/lesson06/
+1 11
+http://www.sthurlow.com/favicon.ico
+1 1
+http://www.sthurlow.com/python/lesson07/
+1 3
+http://www.sthurlow.com/python/lesson08/
+1 9
+http://www.sthurlow.com/python/lesson09/
+1 3
+http://www.sthurlow.com/
+1 2
+http://www.sthurlow.com/cvDocs/cvDoc/CyReplayInfo.htm
+1 1
+http://www.sthurlow.com/cvDocs/cvDoc/CvArtInfoUnit.htm
+1 1
+http://www.google.co.kr/search
+0 1
+http://www.sthurlow.com/python/
+1 59
+http://www.wikihow.com/Program-a-Video-Game
+0 2
+http://www.stumbleupon.com/refer.php
+0 16
+https://oncourse.iu.edu/portal/tool/6a3e0a98-eee8-47ec-849e-e12c1e528a64
+0 1
+http://www.sthurlow.com/python/lesson10/
+1 8
+http://www.sthurlow.com/python/lesson11/
+1 2
+http://www.richarddooling.com/index.php/2006/03/14/python-on-xp-7-minutes-to-hello-world/
+0 1
+http://sthurlow.com/
+1 4
+http://www.google.ca/search
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible;)
+0 1
+Baiduspider+(+http://www.baidu.jp/spider/)
+0 1
+MSIE 7.0
+0 54
+Googlebot/2.1
+0 3
+Baiduspider+(+http://www.baidu.com/search/spider.htm)
+0 3
+Googlebot-Mobile/2.1
+0 1
+Yahoo! DE Slurp
+0 2
+Opera 9.5
+0 1
+Opera 9.6
+0 7
+GoogleToolbar 5.0
+0 56
+Mozilla/5.0
+0 325
+MSIE 8.0
+0 7
+Speedy Spider (http://www.entireweb.com/about/search_tech/speedy_spider/)
+0 2
+MSIE 6.0
+0 19
+Yahoo! Slurp/3.0
+0 7
+PrivacyFinder/1.1
+0 3
+GoogleToolbar 4.0
+0 1
+Yahoo! Slurp
+0 5
+msnbot/2.0b (+http://search.msn.com/msnbot.htm)
+0 1
+# End Of Table - agents
+# -search strings- 
+python beginner tutorial
+1
+python tutorial beginners
+1
+python tutorial
+13
+python tutorial for beginners
+2
+python tutorials
+1
+easy python tutorials
+1
+python reopen file
+1
+python syntax tutorial
+1
+while loops to make all even numbers
+1
+python simple programs
+1
+python file io
+1
+tutorial python
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

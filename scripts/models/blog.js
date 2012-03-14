@@ -1,7 +1,7 @@
 define(function(){
 	var Blog = Backbone.Model.extend({});
 	var BlogCollection = Backbone.Collection.extend({
-		url: "/feeds/blog",
+		url: "/feeds/stackoverflow",
 		model: Blog
 	});
 	return {

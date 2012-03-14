@@ -17,10 +17,10 @@ header {
 	top: 0px;
 	left: 0px;
 
-   	background-image: -webkit-linear-gradient(lightBlue, white);
-   	background-image: -moz-linear-gradient(lightBlue, white);
-   	background-image: -ie-linear-gradient(lightBlue, white);
-   	background-image: linear-gradient(lightBlue, white);
+   	background-image: -webkit-linear-gradient(#FEB, white);
+   	background-image: -moz-linear-gradient(#FEB, white);
+   	background-image: -ie-linear-gradient(#FEB, white);
+   	background-image: linear-gradient(#FEB, white);
 }
 
 header a {
@@ -57,10 +57,10 @@ footer {
 	bottom: 0px;
 	left: 0px;
 
-   	background-image: -webkit-linear-gradient(white, lightBlue);
-   	background-image: -moz-linear-gradient(white, lightBlue);
-   	background-image: -ie-linear-gradient(white, lightBlue);
-   	background-image: linear-gradient(white, lightBlue);
+   	background-image: -webkit-linear-gradient(white, #FEB);
+   	background-image: -moz-linear-gradient(white, #FEB);
+   	background-image: -ie-linear-gradient(white, #FEB);
+   	background-image: linear-gradient(white, #FEB);
 }
 
 footer a {

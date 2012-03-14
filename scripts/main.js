@@ -63,7 +63,7 @@ require.ready(function(){
 				if (e.update === "/feeds/twitter") {
 					tweets.fetch();
 				}
-				else if (e.update === "/feeds/blog") {
+				else if (e.update === "/feeds/stackoverflow") {
 					blogs.fetch();
 				}
 				else if (e.update === "/feeds/github") {
