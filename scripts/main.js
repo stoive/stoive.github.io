@@ -74,6 +74,6 @@ require.ready(function(){
 				}
 			}
 		});
-		socket.connect();
+		socket.connect(location.origin);
 	});
 });
