@@ -57,7 +57,7 @@ require.ready(function(){
 		cv.render();
 		lv.render();
 
-		var socket = new io.Socket(); 
+		var socket = io.connect(document.location.origin); 
 		socket.on('message', function(e) {
 			if (e.update) {
 				if (e.update === "/feeds/twitter") {
@@ -74,6 +74,5 @@ require.ready(function(){
 				}
 			}
 		});
-		socket.connect(location.origin);
 	});
 });
