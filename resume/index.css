@@ -64,7 +64,7 @@ header a {
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	body {
-		font-size: 16pt;
+		font-size: 18pt;
 	}
 
 	article {
