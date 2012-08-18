@@ -8,7 +8,7 @@ require(['jquery-1.8.0.min', 'underscore-min'], function() {
 			$(this).replaceWith(a);
 		});
 
-		var defaultText = "Take some notes on this section to print for the interview, or to forward to Steven...";
+		var defaultText = "Take some notes here, to print for the interview or forward to Steven";
 		$notes = $('article.notes');
 		
 		var resetNotes = function() {
