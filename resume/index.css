@@ -95,4 +95,16 @@ header a {
 	.online-only {
 		display: none;
 	}
+
+	button.get-email {
+		display: none;
+	}
+
+	span.get-email:before {
+		content: "steven@"
+	}
+
+	span.get-email:after {
+		content: "sthurlow.com"
+	}
 }
