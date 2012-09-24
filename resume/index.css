@@ -83,7 +83,23 @@ textarea {
 	border-color: #888;
 }
 
+.two-column {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-ie-column-count: 2;
+	-o-column-count: 2;
+	column-count: 2;
+}
+
 @media screen {
+	.two-column li::before {
+		content: '•';
+		margin-right: 0.3em;
+		font-weight: bold;
+		font-size: 1.3em;
+		line-height: 0.7em;
+	}
+
 	article {
 		margin: 10px auto 40px auto;
 		width: 30em;
