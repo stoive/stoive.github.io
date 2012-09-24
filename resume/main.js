@@ -16,6 +16,10 @@ require(['jquery-1.8.0.min', 'underscore-min'], function() {
 			$('textarea').each(function(i, textarea) {
 				appendNote(textarea);
 			});
+			if ($notes.find('section').length > 0)
+				$notes.show();
+			else
+				$notes.hide();
 		};
 
 		var appendNote = function(textarea) {
