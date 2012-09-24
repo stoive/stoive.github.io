@@ -111,6 +111,11 @@ textarea {
 	}
 }
 
+p, ul, dl {
+	font-family: serif;
+	line-height: 1.5em;
+}
+
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	body {
 		font-size: 22pt;
