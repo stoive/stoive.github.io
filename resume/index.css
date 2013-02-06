@@ -29,12 +29,6 @@ h2, h3 {
 	border: 1px solid white;
 }
 
-h2:hover:not(no-notetaker), h3:hover:not(no-notetaker) {
-	cursor: pointer;
-	border: 1px solid #f99;
-	padding: -1px;
-}
-
 nav {
 	margin: 5px 0;
 	padding: 10px;
