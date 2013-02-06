@@ -156,19 +156,8 @@ p, ul, dl {
 		content: "sthurlow.com"
 	}
 
-	h2:hover {
-		background-color: ;
-	}
-
-	article.notes {
-		page-break-before: always;
-	}
-
-	article.notes h4 {
-		margin-bottom: 0;
-	}
-
-	article.notes p {
-		margin-top: 0;
+	section {
+		page-break-inside: avoid;
 	}
 }
+
