@@ -8,9 +8,12 @@ h1, h2 {
 	letter-spacing: 5px;
 }
 
+h1 > a, h2 > a {
+	color: #F95;
+}
+
 nav {
-	margin: 5px 0;
-	padding: 10px;
+	margin: 15px 0;
 }
 
 a {
@@ -22,73 +25,32 @@ a:hover {
 	color: #00F;
 }
 
-header {
-	margin: 5px;
-	padding: 10px;
+body > header {
+	margin: 15px;
 }
 
-header h1 {
-	font-size: 50pt;
-	line-height: 0.4em;
-	margin: 0.5em 0 0 0;
+body > header h1 {
+	font-size: 24pt;
+	margin: 10px;
+	display: inline-block;
+}
+
+body > header > nav {
+	display: inline-block;
 }
 
 header a {
 	margin-right: 20px;
 }
 
-section {
-	float: left;
-	width: 295px;
-	margin: 5px;
-	padding: 10px;
-	-webkit-border-radius: 3px;
-}
-
-section h2 {
-	margin: 5px 0;
-}
-
-article.new {
-	-webkit-transform: scaley(0.0);
-}
-
 article {
-	margin: 10px auto 40px auto;
-	-webkit-transition: -webkit-transform 0.5s linear;
+	display: block;
+	margin: 20px auto;
+	max-width: 40em;
 }
 
-article .main {
-	line-height: 0.9em;
-	text-align: justify;
-	width: 100%;
-	color: #888;
-	font-size: 0.9em;
-}
-
-article .meta {
-	color: #888;
-	line-height: 0.9em;
-	font-size: 0.8em;
-	text-align: justify;
-	margin: 0 auto;
-	width: 100%;
-}
-
-span.digits {
-	font-weight: bold;
-}
-
-article :hover {
-	color: #00F;
-	cursor: pointer;
-}
-
-article .main::first-line {
-	font-variant: small-caps;
-	font-size: 1.9em;
-	color: #F55;
-	line-height: 0.8em;
+article > h1 {
+	font-size: 20pt;
 }
 
 footer {
