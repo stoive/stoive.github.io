@@ -10,7 +10,7 @@ url: "http://sthurlow.com" # the base hostname & protocol for your site
 twitter_username: stoive
 github_username:  stoive
 
-permalink: /categories/:year-:month-:day-:title.html
+permalink: /posts/:year-:month-:day-:title.html
 
 # Build settings
 markdown: kramdown
@@ -26,6 +26,4 @@ defaults:
       path: ""
       type: posts
     values:
-#      permalink: /:categories/:title-:short_year:month:day.html
-      category: posts
       layout: post
