@@ -1,6 +1,7 @@
 body {
 	font-family: 'Crimson Text', arial, serif;
 	margin: 0px;
+	background-color: #efefef;
 }
 
 h1, h2 {
@@ -13,7 +14,7 @@ h1 > a, h2 > a {
 }
 
 nav {
-	margin: 15px 0;
+	margin: 0;
 }
 
 a {
@@ -26,12 +27,15 @@ a:hover {
 }
 
 body > header {
-	margin: 15px;
+	background-color: white;
+	padding: 0 15px;
+	padding-bottom: 0.5em;
+	box-shadow: inset #efefef 0 -5px 10px;
 }
 
 body > header h1 {
 	font-size: 24pt;
-	margin: 10px;
+	margin: 0;
 	display: inline-block;
 }
 
@@ -45,12 +49,14 @@ header a {
 
 article {
 	display: block;
-	margin: 20px auto;
+	margin: 0 auto;
+	padding: 1em;
 	max-width: 40em;
 }
 
 article > h1 {
 	font-size: 20pt;
+	margin: 0;
 }
 
 footer {
@@ -66,3 +72,5 @@ footer {
 footer span {
 	padding-right: 10px;
 }
+
+@media all and ()
