@@ -8,6 +8,11 @@ body {
 h1, h2 {
 	color: #F95;
 	letter-spacing: 5px;
+	margin: 0.5em 0;
+}
+
+p {
+	margin: 0.5em 0;
 }
 
 h1 > a, h2 > a {
@@ -52,7 +57,16 @@ article {
 	display: block;
 	margin: 0 auto;
 	padding: 1em;
+}
+
+article:nth-of-type(even) {
+  background-color: #f6f6f6;
+  box-shadow: inset #efefef 0 -10px 10px, inset #efefef 0 10px 10px;
+}
+
+article > header, article > section {
 	max-width: 40em;
+	margin: 0 auto;
 }
 
 article > h1 {
